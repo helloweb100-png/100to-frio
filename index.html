@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Servicio de aire acondicionado | 100to Frio HVAC</title>
+  <meta name="description" content="Servicio de aire acondicionado, calefacción y ventilación: venta, instalación, mantenimiento y reparación con diagnóstico medido. Cotiza por WhatsApp.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#f5f9ff">
+  <meta name="color-scheme" content="light">
+
+  <!-- Open Graph / redes (la URL absoluta de la imagen se completa al publicar el dominio) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="100to Frio HVAC">
+  <meta property="og:title" content="Servicio de aire acondicionado | 100to Frio HVAC">
+  <meta property="og:description" content="Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación. Diagnóstico con instrumentos de medición. Cotiza por WhatsApp.">
+  <meta property="og:image" content="assets/logo-100to-frio.jpg">
+  <meta property="og:image:alt" content="Logotipo de 100to Frio HVAC: copo de nieve dentro de un remolino azul y rojo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Servicio de aire acondicionado | 100to Frio HVAC">
+  <meta name="twitter:description" content="Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación. Cotiza por WhatsApp.">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/logo-100to-frio.jpg">
+
+  <!-- Tipografías (Fontsource vía jsDelivr). Si fallan, el sitio cae a la fuente del sistema -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/sora@5/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/jetbrains-mono@5/index.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- anime.js: mejora progresiva (la página se ve completa sin él) -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script defer src="script.js"></script>
+
+  <noscript><style>.cargador{display:none!important}</style></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "100to Frio HVAC",
+    "description": "Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación.",
+    "telephone": "+52 81 8064 4896",
+    "image": "assets/logo-100to-frio.jpg",
+    "logo": "assets/logo-100to-frio.jpg",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "knowsAbout": ["Aire acondicionado", "Calefacción", "Ventilación", "Instalación de minisplits", "Mantenimiento de equipos HVAC", "Reparación de equipos HVAC"]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué servicios ofrecen?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación (HVAC)." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cómo empiezo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Escríbenos por WhatsApp al 81 8064 4896 y cuéntanos qué pasa o qué necesitas. Si tienes el modelo del equipo o una foto, mejor." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es su horario de atención?",
+        "acceptedAnswer": { "@type": "Answer", "text": "De lunes a sábado, de 9:00 a 19:00. Los domingos no abrimos." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Atienden solo equipos de casa?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. Trabajamos con minisplits, equipos de azotea y enfriadores de mayor tamaño. Cuéntanos qué tienes y te confirmamos si podemos atenderlo." }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cada cuánto debo darle mantenimiento a mi equipo?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Depende del uso y del entorno (polvo, horas de funcionamiento, tipo de equipo). Lo recomendable es una revisión preventiva antes de la temporada fuerte de calor o de frío. Cuéntanos tu caso y te orientamos." }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ===== Sprite SVG: copo de nieve de la marca e iconos ===== -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="copo" viewBox="-70 -70 140 140">
+        <g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+          <path pathLength="1" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+          <path pathLength="1" transform="rotate(60)" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+          <path pathLength="1" transform="rotate(120)" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+          <path pathLength="1" transform="rotate(180)" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+          <path pathLength="1" transform="rotate(240)" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+          <path pathLength="1" transform="rotate(300)" d="M0 0V-58M0-22L-14-36M0-22L14-36M0-40L-11-51M0-40L11-51"/>
+        </g>
+      </symbol>
+      <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+      <symbol id="i-tel" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="i-mas" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <!-- ===== Cargador ===== -->
+  <div class="cargador" id="cargador" role="status" aria-live="polite" aria-label="Cargando 100to Frio HVAC">
+    <span class="cargador__mitad cargador__mitad--arriba" aria-hidden="true"></span>
+    <span class="cargador__mitad cargador__mitad--abajo" aria-hidden="true"></span>
+    <div class="cargador__centro">
+      <div class="cargador__reloj" aria-hidden="true">
+        <svg class="cargador__anillo" viewBox="0 0 200 200">
+          <circle class="cargador__pista" cx="100" cy="100" r="86"/>
+          <path class="cargador__arco cargador__arco--azul" pathLength="100" d="M100 186A86 86 0 0 1 100 14"/>
+          <path class="cargador__arco cargador__arco--rojo" pathLength="100" d="M100 14A86 86 0 0 1 100 186"/>
+        </svg>
+        <svg class="cargador__copo" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+      </div>
+      <img class="cargador__logo" src="assets/logo-100to-frio.jpg" width="1280" height="853" alt="Logotipo de 100to Frio HVAC">
+      <p class="cargador__texto"><span class="cargador__grados" id="cargadorGrados">38</span><span aria-hidden="true">°C</span> · Enfriando el ambiente</p>
+      <span class="cargador__barra" aria-hidden="true"><i></i></span>
+    </div>
+  </div>
+
+  <!-- ===== Cabecera ===== -->
+  <header class="cabecera" id="cabecera">
+    <div class="cabecera__barra contenedor">
+      <a class="marca" href="#inicio" aria-label="100to Frio HVAC, ir al inicio">
+        <svg class="marca__copo" viewBox="-70 -70 140 140" aria-hidden="true"><use href="#copo"/></svg>
+        <span class="marca__texto" aria-hidden="true">
+          <b class="marca__a">100to</b><i class="marca__t">~</i><b class="marca__b">Frio</b>
+          <small>HVAC</small>
+        </span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Principal">
+        <ul class="menu__lista">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sistemas">Sistemas</a></li>
+          <li><a href="#campo">Trabajo real</a></li>
+          <li><a href="#laboratorio">Diagnóstico</a></li>
+          <li><a href="#metodo">Cómo trabajamos</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li class="menu__solo-movil"><a href="#contacto">Contacto</a></li>
+        </ul>
+        <a class="btn btn--wa menu__cta" href="#contacto" data-wa data-wa-msg="Hola, quiero mi diagnóstico. Les cuento mi caso:">
+          <svg class="icono" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span>Quiero mi diagnóstico</span>
+        </a>
+        <p class="menu__pie">Lunes a sábado · 9:00 a 19:00<br><a href="tel:+528180644896">81 8064 4896</a></p>
+      </nav>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="sr">Abrir menú</span><i></i><i></i><i></i>
+      </button>
+    </div>
+    <div class="progreso" aria-hidden="true"><i></i></div>
+  </header>
+
+  <!-- Termómetro de scroll (decorativo): el "mercurio" baja mientras recorres la página -->
+  <aside class="termometro" aria-hidden="true">
+    <span class="termometro__grados" id="termoGrados">38°</span>
+    <span class="termometro__tubo"><i class="termometro__mercurio" id="termoMercurio"></i></span>
+    <span class="termometro__bulbo"></span>
+  </aside>
+
+  <main id="contenido">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <canvas class="hero__flujo" id="flujo" aria-hidden="true"></canvas>
+      <div class="hero__brillo hero__brillo--calor" aria-hidden="true"></div>
+      <div class="hero__brillo hero__brillo--frio" aria-hidden="true"></div>
+      <div class="hero__rejilla" aria-hidden="true"></div>
+
+      <div class="hero__interior contenedor">
+        <div class="hero__texto">
+          <p class="estado" data-estado data-reveal data-hero>
+            <span class="estado__punto" aria-hidden="true"></span>
+            <span data-estado-texto>Lunes a sábado · 9:00 a 19:00</span>
+          </p>
+
+          <h1 class="hero__titulo" id="hero-titulo" data-split data-hero>
+            <span class="linea">Siente el <span class="t-frio">frío.</span></span>
+            <span class="linea">Olvida el <span class="t-calor">calor.</span></span>
+            <span class="sr">Servicio de aire acondicionado, calefacción y ventilación</span>
+          </h1>
+
+          <p class="hero__sub" data-reveal data-hero style="--d:.35s">
+            Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación.
+            Diagnosticamos con instrumentos de medición para arreglar la causa, no solo el síntoma.
+          </p>
+
+          <div class="hero__acciones" data-reveal data-hero style="--d:.5s">
+            <a class="btn btn--primario btn--grande" href="#contacto" data-wa data-wa-msg="Hola, quiero sentir la diferencia. Me gustaría más información sobre:" data-magnetico>
+              <span>Quiero sentir la diferencia</span>
+              <svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg>
+            </a>
+            <a class="btn btn--fantasma btn--grande" href="#metodo"><span>Ver cómo trabajamos</span></a>
+          </div>
+
+          <ul class="hero__tags" data-reveal data-hero style="--d:.65s" aria-label="Sistemas que atendemos">
+            <li>Aire acondicionado</li>
+            <li>Calefacción</li>
+            <li>Ventilación</li>
+          </ul>
+        </div>
+
+        <!-- Escena 3D decorativa -->
+        <div class="hero__escena" aria-hidden="true">
+          <div class="escena" id="escena">
+            <div class="escena__interior" id="escenaInterior">
+
+              <div class="ens ens--dial">
+                <div class="dial" id="dial">
+                  <svg class="dial__orbita" viewBox="0 0 400 400" focusable="false">
+                    <defs><path id="orbitaTrazo" d="M200 200m-186 0a186 186 0 1 1 372 0a186 186 0 1 1-372 0"/></defs>
+                    <text><textPath href="#orbitaTrazo" textLength="1160" lengthAdjust="spacing">AIRE ACONDICIONADO • CALEFACCIÓN • VENTILACIÓN • VENTA • INSTALACIÓN • MANTENIMIENTO • REPARACIÓN •</textPath></text>
+                  </svg>
+                  <div class="dial__cristal"></div>
+                  <svg class="dial__anillo" viewBox="0 0 400 400" focusable="false">
+                    <g id="dialMarcas"></g>
+                    <path class="dial__pista" d="M93.9 306.1A150 150 0 1 1 306.1 306.1" pathLength="100"/>
+                    <path class="dial__valor" id="dialValor" d="M93.9 306.1A150 150 0 1 1 306.1 306.1" pathLength="100"/>
+                    <circle class="dial__perilla" id="dialPerilla" r="11" cx="93.9" cy="306.1"/>
+                  </svg>
+                  <div class="copo3d">
+                    <svg class="copo3d__capa copo3d__capa--c" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+                    <svg class="copo3d__capa copo3d__capa--b" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+                    <svg class="copo3d__capa copo3d__capa--a" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+                  </div>
+                  <div class="dial__lectura">
+                    <span class="dial__linea"><span class="dial__num" id="dialNum">38</span><span class="dial__grado">°C</span></span>
+                    <span class="dial__estado" id="dialEstado">Enfriando</span>
+                  </div>
+                  <span class="dial__demo">Demostración</span>
+                </div>
+              </div>
+
+              <div class="ens ens--a">
+                <figure class="tarjeta tarjeta--a">
+                  <img src="assets/img/termometro-infrarrojo.jpg" width="1200" height="1600" alt="Mano sosteniendo un termómetro infrarrojo que marca menos 4.2 grados sobre un equipo de aire acondicionado">
+                  <figcaption>Medimos, no adivinamos</figcaption>
+                </figure>
+              </div>
+              <div class="ens ens--b">
+                <figure class="tarjeta tarjeta--b">
+                  <img src="assets/img/lab-tarjeta-diagnostico.jpg" width="1200" height="1600" alt="Equipo midiendo con osciloscopio y multímetro una tarjeta electrónica de aire acondicionado">
+                  <figcaption>Diagnóstico electrónico</figcaption>
+                </figure>
+              </div>
+
+              <div class="ens ens--p1"><span class="pildora pildora--1">Venta</span></div>
+              <div class="ens ens--p2"><span class="pildora pildora--2">Instalación</span></div>
+              <div class="ens ens--p3"><span class="pildora pildora--3">Mantenimiento</span></div>
+              <div class="ens ens--p4"><span class="pildora pildora--4">Reparación</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__bajar" href="#manifiesto" aria-label="Bajar a la siguiente sección"><span></span></a>
+    </section>
+
+    <!-- ===== Cinta de servicios ===== -->
+    <section class="cinta" aria-label="Lo que hacemos">
+      <div class="cinta__fila" data-cinta="1">
+        <div class="cinta__pista">
+          <span>Aire acondicionado</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+          <span>Calefacción</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+          <span>Ventilación</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+          <span>Aire acondicionado</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+          <span>Calefacción</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+          <span>Ventilación</span><svg class="cinta__copo" aria-hidden="true" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+        </div>
+      </div>
+      <div class="cinta__fila cinta__fila--contorno" data-cinta="-1" aria-hidden="true">
+        <div class="cinta__pista">
+          <span>Venta</span><i>✦</i><span>Instalación</span><i>✦</i><span>Mantenimiento</span><i>✦</i><span>Reparación</span><i>✦</i>
+          <span>Venta</span><i>✦</i><span>Instalación</span><i>✦</i><span>Mantenimiento</span><i>✦</i><span>Reparación</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Manifiesto (texto que se enciende con el scroll) ===== -->
+    <section class="manifiesto" id="manifiesto" aria-labelledby="manifiesto-t">
+      <div class="contenedor contenedor--medio">
+        <p class="kicker" data-reveal><span class="kicker__linea"></span>Por qué existimos</p>
+        <h2 class="sr" id="manifiesto-t">Un clima que falla no avisa</h2>
+        <p class="manifiesto__texto" data-scrub>
+          Un clima que falla no avisa. Llega el calor, el negocio se frena y la casa se vuelve insoportable.
+          Por eso <strong>vendemos, instalamos, mantenemos y reparamos</strong> aire acondicionado,
+          calefacción y ventilación con instrumentos de medición, <em>no con adivinanzas.</em>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Servicios (tarjetas que se apilan) ===== -->
+    <section class="servicios" id="servicios" aria-labelledby="servicios-t">
+      <div class="contenedor">
+        <header class="seccion-cab">
+          <p class="kicker" data-reveal><span class="kicker__linea"></span>Qué hacemos</p>
+          <h2 id="servicios-t" data-split>Cuatro servicios para que tu aire acondicionado deje de ser un problema</h2>
+          <p class="seccion-cab__lead" data-reveal>Del equipo correcto a la reparación que de verdad funciona. Elige por dónde empezar y cuéntanos tu caso.</p>
+        </header>
+
+        <div class="apila">
+          <article class="carta carta--navy" style="--i:0">
+            <div class="carta__cuerpo">
+              <span class="carta__num" aria-hidden="true">01</span>
+              <h3>Venta de equipos</h3>
+              <p>Te ayudamos a elegir el equipo correcto para tu espacio —casa, negocio o planta— antes de que gastes de más o te quedes corto.</p>
+              <ul class="carta__lista">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Aire acondicionado, calefacción y ventilación</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Asesoría según el uso real del espacio</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Equipo e instalación con un solo responsable</li>
+              </ul>
+              <a class="btn btn--claro" href="#contacto" data-wa data-wa-msg="Hola, me interesa la venta de equipos de aire acondicionado, calefacción o ventilación. Mi caso es:"><span>Esto es lo que necesito</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+            </div>
+            <figure class="carta__foto">
+              <img src="assets/img/azotea-equipo-herramientas.jpg" width="1200" height="1600" loading="lazy" alt="Técnicos junto a un equipo de aire acondicionado y herramientas de instalación sobre una azotea">
+            </figure>
+          </article>
+
+          <article class="carta carta--azul" style="--i:1">
+            <div class="carta__cuerpo">
+              <span class="carta__num" aria-hidden="true">02</span>
+              <h3>Instalación</h3>
+              <p>Montaje limpio, conexiones bien hechas y arranque verificado con manómetros y termómetro. Que enfríe bien desde el primer día.</p>
+              <ul class="carta__lista">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Minisplits y equipos de azotea</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Presiones medidas al poner en marcha</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Instalación limpia y ordenada</li>
+              </ul>
+              <a class="btn btn--claro" href="#contacto" data-wa data-wa-msg="Hola, quiero instalar un equipo de aire acondicionado, calefacción o ventilación. Mi caso es:"><span>Quiero que lo instalen</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+            </div>
+            <figure class="carta__foto">
+              <img src="assets/img/instalacion-minisplit.jpg" width="1200" height="1600" loading="lazy" alt="Técnico revisando un minisplit en pared desde una escalera">
+            </figure>
+          </article>
+
+          <article class="carta carta--blanca" style="--i:2">
+            <div class="carta__cuerpo">
+              <span class="carta__num" aria-hidden="true">03</span>
+              <h3>Mantenimiento</h3>
+              <p>Limpieza y revisión preventiva para que tu equipo rinda mejor, dure más y no te falle justo cuando más lo necesitas.</p>
+              <ul class="carta__lista">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Limpieza protegida de equipos en sitio</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Condensadores y equipos de gran tamaño</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Revisión antes de la temporada fuerte</li>
+              </ul>
+              <a class="btn btn--primario" href="#contacto" data-wa data-wa-msg="Hola, quiero agendar un mantenimiento para mi equipo. Mi caso es:"><span>Quiero mi mantenimiento</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+            </div>
+            <figure class="carta__foto">
+              <img src="assets/img/mantenimiento-minisplit-funda.jpg" width="1200" height="1600" loading="lazy" alt="Minisplit con funda de protección azul durante su limpieza, con escalera y herramienta debajo">
+            </figure>
+          </article>
+
+          <article class="carta carta--rojo" style="--i:3">
+            <div class="carta__cuerpo">
+              <span class="carta__num" aria-hidden="true">04</span>
+              <h3>Reparación y diagnóstico</h3>
+              <p>Medimos antes de cambiar piezas: presión, temperatura y electrónica. Así arreglamos la causa y no repetimos la falla.</p>
+              <ul class="carta__lista">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Manómetros y termómetro infrarrojo</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Osciloscopio y multímetro para la electrónica</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Te explicamos qué encontramos</li>
+              </ul>
+              <a class="btn btn--claro" href="#contacto" data-wa data-wa-msg="Hola, mi equipo tiene una falla y quiero un diagnóstico. Lo que pasa es:"><span>Mi equipo falla, ayúdenme</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+            </div>
+            <figure class="carta__foto">
+              <img src="assets/img/compresores-manifold.jpg" width="1200" height="1600" loading="lazy" alt="Técnico mostrando manómetros conectados a los compresores de un equipo de azotea">
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Sistemas (termostato interactivo) ===== -->
+    <section class="sistemas" id="sistemas" aria-labelledby="sistemas-t">
+      <div class="contenedor">
+        <header class="seccion-cab seccion-cab--centro">
+          <p class="kicker" data-reveal><span class="kicker__linea"></span>Sistemas HVAC</p>
+          <h2 id="sistemas-t" data-split>Calor, aire y frío. Mueve el termostato.</h2>
+          <p class="seccion-cab__lead" data-reveal>HVAC significa calefacción, ventilación y aire acondicionado. Cada sistema resuelve algo distinto; elige el tuyo.</p>
+        </header>
+
+        <div class="termostato" id="termostato" data-i="2" data-reveal>
+          <div class="termostato__fondos" aria-hidden="true"><span></span><span></span><span></span></div>
+
+          <div class="termostato__mando">
+            <div class="termostato__botones" role="group" aria-label="Elige un sistema">
+              <button type="button" data-i="0" aria-pressed="false">Calefacción</button>
+              <button type="button" data-i="1" aria-pressed="false">Ventilación</button>
+              <button type="button" data-i="2" aria-pressed="true">Aire acondicionado</button>
+            </div>
+            <div class="termostato__pista" id="termoPista">
+              <span class="termostato__carril" aria-hidden="true"></span>
+              <span class="termostato__perilla" id="termoPerilla" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+              <input type="range" id="termoRango" min="0" max="2" step="0.01" value="2" aria-label="Mueve para cambiar de sistema: calefacción, ventilación o aire acondicionado">
+            </div>
+          </div>
+
+          <div class="termostato__paneles" aria-live="polite">
+            <article class="panel panel--calor" data-panel="0">
+              <div class="panel__texto">
+                <p class="panel__tag">Calefacción</p>
+                <h3>Cuando el frío aprieta, el calor llega parejo.</h3>
+                <p>Equipos de calefacción instalados, revisados y puestos en marcha para que el ambiente se sienta bien y funcione con seguridad.</p>
+                <ul>
+                  <li>Revisión de funcionamiento y seguridad</li>
+                  <li>Instalación y puesta en marcha</li>
+                  <li>Mantenimiento antes de la temporada de frío</li>
+                </ul>
+                <a class="btn btn--primario" href="#contacto" data-wa data-wa-msg="Hola, me interesa un servicio de calefacción. Mi caso es:"><span>Cuéntame mi caso</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+              </div>
+              <div class="panel__arte" aria-hidden="true">
+                <svg viewBox="0 0 320 320" class="arte arte--calor" focusable="false">
+                  <circle cx="160" cy="236" r="70" class="arte__halo"/>
+                  <path class="onda onda--1" pathLength="1" d="M90 270c-18-30 18-50 0-80s18-50 0-80"/>
+                  <path class="onda onda--2" pathLength="1" d="M125 280c-18-34 18-56 0-90s18-56 0-90"/>
+                  <path class="onda onda--3" pathLength="1" d="M160 286c-18-38 18-60 0-98s18-60 0-98"/>
+                  <path class="onda onda--4" pathLength="1" d="M195 280c-18-34 18-56 0-90s18-56 0-90"/>
+                  <path class="onda onda--5" pathLength="1" d="M230 270c-18-30 18-50 0-80s18-50 0-80"/>
+                </svg>
+              </div>
+            </article>
+
+            <article class="panel panel--aire" data-panel="1">
+              <div class="panel__texto">
+                <p class="panel__tag">Ventilación</p>
+                <h3>Aire que se renueva, espacios que se sienten mejor.</h3>
+                <p>La ventilación evita ese ambiente pesado: el aire circula, los olores salen y el espacio se siente más fresco y limpio.</p>
+                <ul>
+                  <li>Extracción y circulación de aire</li>
+                  <li>Para casas, locales y espacios de trabajo</li>
+                  <li>Revisión y limpieza de equipos</li>
+                </ul>
+                <a class="btn btn--primario" href="#contacto" data-wa data-wa-msg="Hola, me interesa un servicio de ventilación. Mi caso es:"><span>Cuéntame mi caso</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+              </div>
+              <div class="panel__arte" aria-hidden="true">
+                <svg viewBox="0 0 320 320" class="arte arte--aire" focusable="false">
+                  <path class="viento viento--1" pathLength="1" d="M20 110c60-30 90 30 150 0s90-20 130 0"/>
+                  <path class="viento viento--2" pathLength="1" d="M20 160c70-34 100 34 170 0s70-24 110 0"/>
+                  <path class="viento viento--3" pathLength="1" d="M20 210c60-30 90 30 150 0s90-20 130 0"/>
+                  <g class="aspas"><circle cx="160" cy="160" r="9"/><path d="M160 150c-10-44 22-56 36-34-6 18-18 30-36 34zM170 160c44-10 56 22 34 36-18-6-30-18-34-36zM160 170c10 44-22 56-36 34 6-18 18-30 36-34zM150 160c-44 10-56-22-34-36 18 6 30 18 34 36z"/></g>
+                </svg>
+              </div>
+            </article>
+
+            <article class="panel panel--frio on" data-panel="2">
+              <div class="panel__texto">
+                <p class="panel__tag">Aire acondicionado</p>
+                <h3>Frío que se queda, con equipos que no te fallan.</h3>
+                <p>El corazón de lo que hacemos: venta, instalación, mantenimiento y reparación de aire acondicionado, medidos con instrumentos.</p>
+                <ul>
+                  <li>Minisplits y equipos de azotea</li>
+                  <li>Carga y presiones medidas con manómetros</li>
+                  <li>Diagnóstico de fallas eléctricas y electrónicas</li>
+                </ul>
+                <a class="btn btn--primario" href="#contacto" data-wa data-wa-msg="Hola, me interesa un servicio de aire acondicionado. Mi caso es:"><span>Cuéntame mi caso</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+              </div>
+              <div class="panel__arte" aria-hidden="true">
+                <svg viewBox="0 0 320 320" class="arte arte--frio" focusable="false">
+                  <circle class="onda-frio onda-frio--1" cx="160" cy="160" r="60"/>
+                  <circle class="onda-frio onda-frio--2" cx="160" cy="160" r="60"/>
+                  <circle class="onda-frio onda-frio--3" cx="160" cy="160" r="60"/>
+                  <g class="arte__copo"><use href="#copo" x="70" y="70" width="180" height="180"/></g>
+                </svg>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trabajo real (foto que se expande al hacer scroll) ===== -->
+    <section class="campo" id="campo" aria-labelledby="campo-t">
+      <div class="campo__pista">
+        <div class="campo__escena">
+          <p class="campo__previo" aria-hidden="true"><span>Trabajo real.</span> <span>Equipos reales.</span></p>
+
+          <div class="campo__marco">
+            <div class="campo__trio">
+              <figure class="campo__foto campo__foto--izq"><img src="assets/img/limpieza-chillers.jpg" width="1200" height="1600" loading="lazy" alt="Limpieza a presión del condensador de dos enfriadores industriales"></figure>
+              <figure class="campo__foto campo__foto--centro"><img src="assets/img/azotea-compresor-montana.jpg" width="1200" height="1600" loading="lazy" alt="Técnico trabajando en el compresor de un equipo de azotea, con un cilindro azul de gas y las montañas al fondo"></figure>
+              <figure class="campo__foto campo__foto--der"><img src="assets/img/termometro-infrarrojo.jpg" width="1200" height="1600" loading="lazy" alt="Termómetro infrarrojo midiendo la temperatura de un equipo de aire acondicionado"></figure>
+            </div>
+            <div class="campo__velo" aria-hidden="true"></div>
+            <div class="campo__texto">
+              <p class="kicker kicker--claro"><span class="kicker__linea"></span>Trabajo en campo</p>
+              <h2 id="campo-t">Del minisplit de tu casa al enfriador de una planta.</h2>
+              <p>Azoteas, cuartos de máquinas, oficinas y casas. Cada una de estas fotos es trabajo del equipo de 100to Frio.</p>
+              <a class="btn btn--claro" href="#contacto" data-wa data-wa-msg="Hola, vi su trabajo en campo y quiero un servicio así. Mi caso es:"><span>Quiero un servicio así</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Diagnóstico (osciloscopio animado) ===== -->
+    <section class="lab" id="laboratorio" aria-labelledby="lab-t">
+      <div class="lab__fondo" aria-hidden="true"></div>
+      <div class="contenedor lab__rejilla">
+        <div class="lab__texto">
+          <p class="kicker kicker--claro" data-reveal><span class="kicker__linea"></span>Diagnóstico</p>
+          <h2 id="lab-t" data-split>Diagnosticamos con datos, no con corazonadas.</h2>
+          <p class="lab__lead" data-reveal>Antes de cambiar una sola pieza, medimos. Así sabes exactamente qué falla y por qué, y no pagas por refacciones que no hacían falta.</p>
+
+          <ul class="lab__items">
+            <li data-reveal>
+              <span class="lab__icono" aria-hidden="true">01</span>
+              <div><h3>Presión y temperatura</h3><p>Manómetros y termómetro infrarrojo para ver lo que pasa dentro del sistema.</p></div>
+            </li>
+            <li data-reveal style="--d:.1s">
+              <span class="lab__icono" aria-hidden="true">02</span>
+              <div><h3>Electrónica a fondo</h3><p>Osciloscopio, multímetro y fuente de poder para revisar las tarjetas de control.</p></div>
+            </li>
+            <li data-reveal style="--d:.2s">
+              <span class="lab__icono" aria-hidden="true">03</span>
+              <div><h3>Resultado explicado</h3><p>Te decimos qué encontramos y qué opciones tienes, en lenguaje claro.</p></div>
+            </li>
+          </ul>
+
+          <a class="btn btn--claro" href="#contacto" data-wa data-wa-msg="Hola, quiero que midan y diagnostiquen mi equipo. Lo que pasa es:" data-reveal><span>Quiero que midan mi equipo</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+        </div>
+
+        <div class="lab__panel" data-reveal>
+          <div class="osc" role="img" aria-label="Simulación animada de las señales de un osciloscopio">
+            <div class="osc__barra" aria-hidden="true"><span class="osc__ch osc__ch--1">CH1</span><span class="osc__ch osc__ch--2">CH2</span><b>Simulación</b></div>
+            <canvas class="osc__lienzo" id="osc" aria-hidden="true"></canvas>
+            <div class="osc__lecturas" aria-hidden="true">
+              <span>Señal de demostración</span>
+              <span id="oscLectura">60.0 Hz</span>
+            </div>
+          </div>
+          <figure class="lab__foto lab__foto--a tilt">
+            <img src="assets/img/lab-fuente-osciloscopio.jpg" width="1200" height="1600" loading="lazy" alt="Fuente de poder, osciloscopio y soldador sobre una mesa de diagnóstico electrónico">
+          </figure>
+          <figure class="lab__foto lab__foto--b tilt">
+            <img src="assets/img/lab-instrumentos-proyector.jpg" width="1200" height="1600" loading="lazy" alt="Mesa con fuente de poder, osciloscopio y una tarjeta electrónica; al fondo una persona explicando frente al pizarrón">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Método (línea de tiempo que se llena) ===== -->
+    <section class="metodo" id="metodo" aria-labelledby="metodo-t">
+      <div class="contenedor">
+        <header class="seccion-cab">
+          <p class="kicker" data-reveal><span class="kicker__linea"></span>Cómo trabajamos</p>
+          <h2 id="metodo-t" data-split>De tu mensaje al aire fresco, en cinco pasos.</h2>
+          <p class="seccion-cab__lead" data-reveal>Sin vueltas ni tecnicismos. Así se ve trabajar con nosotros, de principio a fin.</p>
+        </header>
+
+        <ol class="linea-tiempo" id="lineaTiempo">
+          <li class="paso">
+            <span class="paso__nodo" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+            <div class="paso__tarjeta" data-reveal>
+              <span class="paso__num">Paso 01</span>
+              <h3>Nos escribes</h3>
+              <p>Cuéntanos por WhatsApp qué pasa o qué quieres instalar. Si tienes el modelo o una foto del equipo, nos ayuda muchísimo.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__nodo" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+            <div class="paso__tarjeta" data-reveal>
+              <span class="paso__num">Paso 02</span>
+              <h3>Diagnosticamos</h3>
+              <p>Medimos presiones, temperaturas y señales eléctricas para encontrar la causa real, no solo el síntoma.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__nodo" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+            <div class="paso__tarjeta" data-reveal>
+              <span class="paso__num">Paso 03</span>
+              <h3>Te lo explicamos</h3>
+              <p>Te decimos qué encontramos y qué opciones tienes, en lenguaje claro, para que decidas con calma.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__nodo" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+            <div class="paso__tarjeta" data-reveal>
+              <span class="paso__num">Paso 04</span>
+              <h3>Lo resolvemos</h3>
+              <p>Instalamos, reparamos o hacemos el mantenimiento con herramienta y procedimiento correctos.</p>
+            </div>
+          </li>
+          <li class="paso">
+            <span class="paso__nodo" aria-hidden="true"><svg viewBox="-70 -70 140 140"><use href="#copo"/></svg></span>
+            <div class="paso__tarjeta" data-reveal>
+              <span class="paso__num">Paso 05</span>
+              <h3>Lo dejamos funcionando</h3>
+              <p>Verificamos que enfríe o caliente como debe y te decimos cómo cuidarlo para que dure.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Banda CTA ===== -->
+    <section class="banda" aria-labelledby="banda-t">
+      <div class="banda__fondo" aria-hidden="true"></div>
+      <div class="contenedor banda__interior">
+        <div>
+          <h2 id="banda-t" data-split>¿Ya sabes qué necesitas? Cuéntanoslo en un mensaje.</h2>
+          <p data-reveal>Una línea basta. Nosotros te orientamos por dónde empezar. <a class="banda__enlace" href="#contacto">¿Prefieres llenar el formulario?</a></p>
+        </div>
+        <a class="btn btn--blanco btn--grande" href="#contacto" data-wa data-wa-msg="Hola, estoy listo para resolver mi clima. Lo que necesito es:" data-magnetico data-reveal>
+          <svg class="icono" aria-hidden="true"><use href="#i-wa"/></svg><span>Estoy listo, escribir ahora</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== Galería (riel horizontal) ===== -->
+    <section class="galeria" id="galeria" aria-labelledby="galeria-t">
+      <div class="contenedor">
+        <header class="seccion-cab seccion-cab--fila">
+          <div>
+            <p class="kicker" data-reveal><span class="kicker__linea"></span>Bitácora de campo</p>
+            <h2 id="galeria-t" data-split>Así se ve un día de trabajo.</h2>
+          </div>
+          <div class="galeria__ctrl" role="group" aria-label="Controles de la galería">
+            <button type="button" class="galeria__btn" id="galPrev" aria-label="Foto anterior"><svg aria-hidden="true" class="giro"><use href="#i-flecha"/></svg></button>
+            <button type="button" class="galeria__btn" id="galNext" aria-label="Foto siguiente"><svg aria-hidden="true"><use href="#i-flecha"/></svg></button>
+          </div>
+        </header>
+      </div>
+      <div class="riel" id="riel" tabindex="0" aria-label="Galería de fotos de trabajo, desliza horizontalmente">
+        <figure class="riel__item">
+          <img src="assets/img/carga-refrigerante-manometro.jpg" width="960" height="1280" loading="lazy" alt="Técnico conectando mangueras y un manómetro digital a la unidad exterior de un minisplit">
+          <figcaption><b>Instalación</b>Verificación de presión</figcaption>
+        </figure>
+        <figure class="riel__item riel__item--alto">
+          <img src="assets/img/lab-tarjeta-diagnostico.jpg" width="1200" height="1600" loading="lazy" alt="Equipo midiendo con osciloscopio y multímetro una tarjeta electrónica de aire acondicionado">
+          <figcaption><b>Electrónica</b>Medición sobre tarjeta de control</figcaption>
+        </figure>
+        <figure class="riel__item">
+          <img src="assets/img/instalacion-minisplit.jpg" width="1200" height="1600" loading="lazy" alt="Técnico revisando un minisplit en pared desde una escalera">
+          <figcaption><b>Minisplit</b>Revisión del equipo interior</figcaption>
+        </figure>
+        <figure class="riel__item riel__item--alto">
+          <img src="assets/img/limpieza-chillers.jpg" width="1200" height="1600" loading="lazy" alt="Limpieza a presión del condensador de dos enfriadores industriales">
+          <figcaption><b>Mantenimiento</b>Limpieza de condensadores</figcaption>
+        </figure>
+        <figure class="riel__item">
+          <img src="assets/img/compresores-manifold.jpg" width="1200" height="1600" loading="lazy" alt="Técnico mostrando manómetros conectados a los compresores de un equipo de azotea">
+          <figcaption><b>Diagnóstico</b>Compresores y manómetros</figcaption>
+        </figure>
+        <figure class="riel__item riel__item--alto">
+          <img src="assets/img/azotea-equipo-herramientas.jpg" width="1200" height="1600" loading="lazy" alt="Técnicos junto a un equipo de aire acondicionado y herramientas de instalación sobre una azotea">
+          <figcaption><b>Instalación</b>Equipo y herramienta en azotea</figcaption>
+        </figure>
+        <figure class="riel__item">
+          <img src="assets/img/mantenimiento-minisplit-funda.jpg" width="1200" height="1600" loading="lazy" alt="Minisplit con funda de protección azul durante su limpieza">
+          <figcaption><b>Mantenimiento</b>Limpieza protegida en sitio</figcaption>
+        </figure>
+        <div class="riel__cierre">
+          <p>¿Tienes un equipo así?</p>
+          <a class="btn btn--primario" href="#contacto" data-wa data-wa-msg="Hola, tengo un equipo parecido a los de su galería y quiero que lo revisen. Mi caso es:"><span>Cuéntanos qué tienes</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Por qué 100to Frio (bento) ===== -->
+    <section class="porque" id="por-que" aria-labelledby="porque-t">
+      <div class="contenedor">
+        <header class="seccion-cab seccion-cab--centro">
+          <p class="kicker" data-reveal><span class="kicker__linea"></span>Por qué 100to Frio</p>
+          <h2 id="porque-t" data-split>Todo el confort en un solo lugar.</h2>
+        </header>
+
+        <div class="bento" id="bento">
+          <article class="tile tile--ancho" data-spot>
+            <h3>De la venta al mantenimiento, un solo equipo</h3>
+            <p>Venta, instalación, mantenimiento y reparación en un solo lugar, para que no andes de proveedor en proveedor.</p>
+            <ol class="ciclo" aria-label="Venta, instalación, mantenimiento y reparación">
+              <li>Venta</li><li>Instalación</li><li>Mantenimiento</li><li>Reparación</li>
+            </ol>
+          </article>
+
+          <article class="tile tile--oscuro" data-spot>
+            <h3>Diagnóstico con instrumentos</h3>
+            <p>Presión, temperatura y señales eléctricas medidas de verdad.</p>
+            <svg class="tile__onda" viewBox="0 0 200 60" aria-hidden="true" focusable="false"><path pathLength="1" d="M0 30c12-34 24-34 36 0s24 34 36 0 24-34 36 0 24 34 36 0 24-34 36 0 14 24 20 14"/></svg>
+          </article>
+
+          <article class="tile tile--foto" data-spot>
+            <img src="assets/img/limpieza-chillers.jpg" width="1200" height="1600" loading="lazy" alt="Dos enfriadores industriales siendo limpiados con agua a presión">
+            <div class="tile__sobre"><h3>Del hogar a la industria</h3><p>Minisplits, equipos de azotea y enfriadores.</p></div>
+          </article>
+
+          <article class="tile tile--horario" data-spot>
+            <h3>Lunes a sábado</h3>
+            <p class="tile__hora">9:00 – 19:00</p>
+            <p class="estado estado--chico" data-estado><span class="estado__punto" aria-hidden="true"></span><span data-estado-texto>Consulta nuestro horario</span></p>
+          </article>
+
+          <article class="tile tile--wa" data-spot>
+            <svg class="tile__wa" aria-hidden="true"><use href="#i-wa"/></svg>
+            <h3>WhatsApp directo</h3>
+            <p>La forma más rápida de empezar: escríbenos y cuéntanos tu caso.</p>
+            <a class="btn btn--blanco" href="#contacto" data-wa data-wa-msg="Hola, quiero empezar. Mi caso es:"><span>Escríbenos ahora</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+          </article>
+
+          <article class="tile tile--dual" data-spot>
+            <div class="tile__duo" aria-hidden="true">
+              <svg viewBox="-70 -70 140 140" class="tile__copo"><use href="#copo"/></svg>
+              <span class="tile__llama"></span>
+            </div>
+            <h3>Frío y calor, bien resueltos</h3>
+            <p>Aire acondicionado, calefacción y ventilación en el mismo servicio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Horario + preguntas ===== -->
+    <section class="info" id="preguntas" aria-label="Horario de atención y preguntas frecuentes">
+      <div class="contenedor info__rejilla">
+        <div class="horario">
+          <p class="kicker" data-reveal><span class="kicker__linea"></span>Horario</p>
+          <h2 id="horario-t" data-split>Aquí estamos cuando nos necesitas.</h2>
+          <p class="estado estado--grande" data-estado data-reveal><span class="estado__punto" aria-hidden="true"></span><span data-estado-texto>Lunes a sábado · 9:00 a 19:00</span></p>
+
+          <ul class="semana" id="semana" data-reveal>
+            <li data-dia="1"><span class="semana__d">Lun</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="2"><span class="semana__d">Mar</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="3"><span class="semana__d">Mié</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="4"><span class="semana__d">Jue</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="5"><span class="semana__d">Vie</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="6"><span class="semana__d">Sáb</span><span class="semana__barra"><i></i></span><span class="semana__h">9:00 – 19:00</span></li>
+            <li data-dia="0" class="semana__cerrado"><span class="semana__d">Dom</span><span class="semana__barra"></span><span class="semana__h">Cerrado</span></li>
+          </ul>
+        </div>
+
+        <div class="faq">
+          <h2 id="faq-t" class="faq__titulo" data-reveal>Preguntas frecuentes</h2>
+          <details class="faq__item" data-reveal>
+            <summary><span>¿Qué servicios ofrecen?</span><svg aria-hidden="true"><use href="#i-mas"/></svg></summary>
+            <div class="faq__resp"><p>Venta, instalación, mantenimiento y reparación de aire acondicionado, calefacción y ventilación (HVAC).</p></div>
+          </details>
+          <details class="faq__item" data-reveal>
+            <summary><span>¿Cómo empiezo?</span><svg aria-hidden="true"><use href="#i-mas"/></svg></summary>
+            <div class="faq__resp"><p>Escríbenos por WhatsApp al <a href="tel:+528180644896">81 8064 4896</a> y cuéntanos qué pasa o qué necesitas. Si tienes el modelo del equipo o una foto, mejor.</p></div>
+          </details>
+          <details class="faq__item" data-reveal>
+            <summary><span>¿Cuál es su horario de atención?</span><svg aria-hidden="true"><use href="#i-mas"/></svg></summary>
+            <div class="faq__resp"><p>De lunes a sábado, de 9:00 a 19:00. Los domingos no abrimos.</p></div>
+          </details>
+          <details class="faq__item" data-reveal>
+            <summary><span>¿Atienden solo equipos de casa?</span><svg aria-hidden="true"><use href="#i-mas"/></svg></summary>
+            <div class="faq__resp"><p>No. Trabajamos con minisplits, equipos de azotea y enfriadores de mayor tamaño. Cuéntanos qué tienes y te confirmamos si podemos atenderlo.</p></div>
+          </details>
+          <details class="faq__item" data-reveal>
+            <summary><span>¿Cada cuánto debo darle mantenimiento a mi equipo?</span><svg aria-hidden="true"><use href="#i-mas"/></svg></summary>
+            <div class="faq__resp"><p>Depende del uso y del entorno (polvo, horas de funcionamiento, tipo de equipo). Lo recomendable es una revisión preventiva antes de la temporada fuerte de calor o de frío. Cuéntanos tu caso y te orientamos.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="contacto" id="contacto" aria-labelledby="contacto-t">
+      <div class="contacto__fondo" aria-hidden="true">
+        <svg class="nieve nieve--1" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+        <svg class="nieve nieve--2" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+        <svg class="nieve nieve--3" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+        <svg class="nieve nieve--4" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+        <svg class="nieve nieve--5" viewBox="-70 -70 140 140"><use href="#copo"/></svg>
+      </div>
+
+      <div class="contenedor contacto__rejilla">
+        <div class="contacto__texto">
+          <p class="kicker kicker--claro" data-reveal><span class="kicker__linea"></span>Hablemos</p>
+          <h2 id="contacto-t" data-split>Tu próximo clima empieza con un mensaje.</h2>
+          <p class="contacto__lead" data-reveal>Cuéntanos qué necesitas. Se abrirá WhatsApp con tu mensaje listo y nada se envía hasta que tú lo mandes.</p>
+
+          <div class="contacto__datos" data-reveal>
+            <a class="dato" href="tel:+528180644896">
+              <svg aria-hidden="true"><use href="#i-tel"/></svg>
+              <span><small>Teléfono y WhatsApp</small><b>81 8064 4896</b></span>
+            </a>
+            <div class="dato">
+              <svg aria-hidden="true"><use href="#i-check"/></svg>
+              <span><small>Horario</small><b>Lunes a sábado · 9:00 a 19:00</b></span>
+            </div>
+            <p class="estado estado--oscuro" data-estado><span class="estado__punto" aria-hidden="true"></span><span data-estado-texto>Consulta nuestro horario</span></p>
+          </div>
+        </div>
+
+        <form class="formulario" id="formulario" novalidate data-reveal>
+          <h3 class="formulario__titulo">Cuéntanos tu caso</h3>
+
+          <div class="campo-f">
+            <label for="f-nombre">¿Cómo te llamas?</label>
+            <input id="f-nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required>
+            <p class="campo-f__error" id="f-nombre-error" role="alert" hidden>Dinos tu nombre para saludarte bien.</p>
+          </div>
+
+          <fieldset class="campo-f">
+            <legend>¿Dónde está el equipo?</legend>
+            <div class="fichas">
+              <label class="ficha"><input type="radio" name="lugar" value="casa" checked><span>Casa</span></label>
+              <label class="ficha"><input type="radio" name="lugar" value="negocio"><span>Negocio</span></label>
+              <label class="ficha"><input type="radio" name="lugar" value="planta o industria"><span>Industria</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="campo-f">
+            <legend>¿Qué necesitas?</legend>
+            <div class="fichas">
+              <label class="ficha"><input type="radio" name="servicio" value="comprar un equipo" checked><span>Comprar</span></label>
+              <label class="ficha"><input type="radio" name="servicio" value="instalar un equipo"><span>Instalar</span></label>
+              <label class="ficha"><input type="radio" name="servicio" value="darle mantenimiento a mi equipo"><span>Mantenimiento</span></label>
+              <label class="ficha"><input type="radio" name="servicio" value="reparar una falla"><span>Reparar</span></label>
+              <label class="ficha"><input type="radio" name="servicio" value="un diagnóstico, no sé qué tiene"><span>No sé, diagnóstico</span></label>
+            </div>
+          </fieldset>
+
+          <div class="campo-f">
+            <label for="f-mensaje">Cuéntanos más <span class="opcional">(opcional)</span></label>
+            <textarea id="f-mensaje" name="mensaje" rows="3" placeholder="Marca, modelo, qué hace o qué dejó de hacer…"></textarea>
+          </div>
+
+          <button class="btn btn--wa btn--grande btn--bloque" type="submit" id="formEnviar">
+            <svg class="icono" aria-hidden="true"><use href="#i-wa"/></svg>
+            <span>Mándame a WhatsApp</span>
+          </button>
+          <p class="formulario__nota" id="formNota" role="status" aria-live="polite">Te responderemos por WhatsApp en horario de atención.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Pie ===== -->
+  <footer class="pie">
+    <div class="contenedor pie__rejilla">
+      <div class="pie__marca">
+        <img src="assets/logo-100to-frio.jpg" width="1280" height="853" loading="lazy" alt="Logotipo de 100to Frio HVAC: aire acondicionado, calefacción, ventilación, venta, instalación, mantenimiento y reparación">
+      </div>
+      <nav class="pie__nav" aria-label="Pie de página">
+        <p class="pie__t">Explora</p>
+        <a href="#servicios">Servicios</a>
+        <a href="#sistemas">Sistemas</a>
+        <a href="#campo">Trabajo real</a>
+        <a href="#metodo">Cómo trabajamos</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <div class="pie__contacto">
+        <p class="pie__t">Contacto</p>
+        <a href="tel:+528180644896">81 8064 4896</a>
+        <p>Lunes a sábado<br>9:00 a 19:00</p>
+        <a class="btn btn--wa" href="#contacto" data-wa data-wa-msg="Hola, quiero más información."><svg class="icono" aria-hidden="true"><use href="#i-wa"/></svg><span>Hablemos por WhatsApp</span></a>
+      </div>
+    </div>
+    <div class="contenedor pie__legal">
+      <p>© <span id="anio">2026</span> 100to Frio HVAC. Aire acondicionado, calefacción y ventilación.</p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-flotante" href="#contacto" data-wa data-wa-msg="Hola, quiero más información sobre sus servicios." aria-label="Escribir por WhatsApp a 100to Frio HVAC">
+    <span class="wa-flotante__etiqueta" aria-hidden="true">¿Hablamos?</span>
+    <span class="wa-flotante__icono"><svg aria-hidden="true"><use href="#i-wa"/></svg></span>
+  </a>
+</body>
+</html>
