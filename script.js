@@ -630,6 +630,16 @@
     if (prev) prev.addEventListener('click', () => riel.scrollBy({ left: -salto(), behavior: 'smooth' }));
     if (next) next.addEventListener('click', () => riel.scrollBy({ left: salto(), behavior: 'smooth' }));
 
+    /* Videos de la galería: se reproducen en silencio solo mientras están a la vista */
+    const videos = $$('.riel__item video', riel);
+    if (reducir) videos.forEach((v) => { v.controls = true; });
+    else if ('IntersectionObserver' in window) {
+      const vigia = new IntersectionObserver((es) => es.forEach((e) => {
+        if (e.isIntersecting) { const p = e.target.play(); if (p && p.catch) p.catch(() => {}); } else e.target.pause();
+      }), { threshold: 0.4 });
+      videos.forEach((v) => vigia.observe(v));
+    }
+
     if (reducir) return;
     const imgs = $$('.riel__item img', riel);
     const parallax = () => {
